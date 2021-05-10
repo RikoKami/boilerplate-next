@@ -18,7 +18,14 @@
 	},
 	"plugins": ["react", "@typescript-eslint", "react-hooks"],
 	"rules": {
+		// analyze hooks
 		"react-hooks/rules-of-hooks": "error",
-		"react-hooks/exhaustive-deps": "warn"
+		"react-hooks/exhaustive-deps": "warn",
+		// typescript will be responsible for typing
+		"react/prop-types": "off",
+		// react as a global variable
+		"react/react-in-jsx-scope": "off",
+		// https://github.com/typescript-eslint/typescript-eslint/blob/master/packages/eslint-plugin/docs/rules/explicit-module-boundary-types.md
+		"@typescript-eslint/explicit-module-boundary-types": "off"
 	}
 }
