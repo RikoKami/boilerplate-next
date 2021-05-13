@@ -10,11 +10,10 @@
 		"lint:fix": "eslint src --fix --max-warnings=0",
 		"prepare": "husky install",
 		"test:watch":  "jest --watch",
-		"test": "jest",
-		"precommit": "npm run lint:fix && npm run test --bail"
+		"test": "jest"
 	},
 	"lint-staged": {
-		"src/**/*": "npm run precommit"
+		"src/**/*": ["npm run lint:fix", "npm run test --bail"]
 	},
 	"dependencies": {
 		"@babel/preset-typescript": "^7.13.0",
