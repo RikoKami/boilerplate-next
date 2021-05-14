@@ -13,7 +13,10 @@
 		"test": "jest"
 	},
 	"lint-staged": {
-		"src/**/*": ["npm run lint:fix", "npm run test --bail"]
+		"src/**/*": [
+			"npm run lint:fix",
+			"npm run test --findRelatedTests --bail"
+		]
 	},
 	"dependencies": {
 		"@babel/preset-typescript": "^7.13.0",
