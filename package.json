@@ -33,10 +33,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
-    "@storybook/addon-actions": "^6.2.9",
     "@storybook/addon-essentials": "^6.2.9",
-    "@storybook/addon-knobs": "^6.2.9",
-    "@storybook/addon-links": "^6.2.9",
     "@storybook/react": "^6.2.9",
     "@types/react": "^17.0.5",
     "@types/styled-components": "^5.1.9",
