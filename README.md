@@ -39,6 +39,14 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 - `storybook`: runs storybook on `localhost:6006`
 - `build-storybook`: create the build version of storybook
 
+## Starting a project through this boilerplate
+
+```bash
+npx create-next-app -e https://github.com/RikoKami/boilerplate-next
+# or
+yarn create next-app -e https://github.com/RikoKami/boilerplate-next
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
